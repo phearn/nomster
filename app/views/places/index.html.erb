@@ -4,4 +4,9 @@
     <i><%= place.address %></i><br /><br />
     <p><%= place.description %></p><br />
   </div>
+
 <% end %>
+
+<div class="pagething">
+<%= will_paginate @places %>
+</div>
