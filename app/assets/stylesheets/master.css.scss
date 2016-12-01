@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-.booyah-box {
+.booyah-box.booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -11,6 +11,8 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding-top: 20px;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -107,3 +109,4 @@ body {
     font-weight: bold;
     font-style: italic;
 }
+
